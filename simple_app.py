@@ -9,7 +9,7 @@ import numpy as np
 tita = sns.load_dataset('titanic')
 
 #plots
-px.bar(tita,x="sex",y="alive")
+fig = px.bar(tita,x="sex",y="alive")
 
 #stremlit
 st.title("data visualisation  with plotly")
